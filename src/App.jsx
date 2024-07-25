@@ -29,11 +29,13 @@ function App() {
   return (
     <>
       <div className="flex items-center justify-center gap-3">
-        <h1 className="text-base font-bold">
+        <h1 className="text-base font-bold text-white">
           {currentDateTime.toLocaleDateString()}
         </h1>
-        <h1 className="text-base font-bold">{getDayName(currentDateTime)}</h1>
-        <h1 className="text-base font-bold">
+        <h1 className="text-base font-bold text-white">
+          {getDayName(currentDateTime)}
+        </h1>
+        <h1 className="text-base font-bold text-white">
           {currentDateTime.toLocaleTimeString()}
         </h1>
       </div>
